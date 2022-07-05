@@ -1,8 +1,9 @@
 name: Check Style
 on: push
 
+
 jobs:
-  check-style:
+    check-style:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
